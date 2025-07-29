@@ -22,7 +22,7 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
    ```bash
    pip install -r requirements.txt
 
-6. **Configure environment variables**
+5. **Configure environment variables**
   Create a .env file in the project root and set your configuration:
     ```bash
    DATABASE_URL=postgresql://postgres:password@localhost:5432/mydb  **// for postgresql use**
@@ -31,9 +31,9 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
    ACCESS_TOKEN_EXPIRE_MINUTES = 30
     ALGORITHM="HS256"
 
-5.**Run the application**
+6 **Run the application**
    ```bash
-  uvicorn main:app --reload
+     uvicorn main:app --reload
   
-6. **Access API**
+7. **Access API**
    Open your browser and visit http://127.0.0.1:8000/docs to explore the API documentation.
