@@ -13,21 +13,25 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
    cd restapi
    
 2. **Create and activate a virtual environment**
+    ```bash
    python -m venv venv
    source venv/bin/activate  //for linux
    .\venv\script\activate    // for windows
 
 4. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
 
-5. **Configure environment variables**
+6. **Configure environment variables**
   Create a .env file in the project root and set your configuration:
+    ```bash
    DATABASE_URL=postgresql://postgres:password@localhost:5432/mydb  **// for postgresql use**
    DATABASE_URL=sqlite:///./test.db     **//for local use**
    SECRET_KEY=abhey_dadwal
    ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
 5.**Run the application**
+   ```bash
   uvicorn main:app --reload
   
 6. **Access API**
