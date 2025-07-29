@@ -32,8 +32,7 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
     ALGORITHM="HS256"
 
 6 **Run the application**
-      ```bash
-     uvicorn main:app --reload
+   uvicorn main:app --reload
   
 7. **Access API**
       Open your browser and visit http://127.0.0.1:8000/docs to explore the API documentation.
