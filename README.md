@@ -16,7 +16,7 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
     ```bash
    python -m venv venv
    source venv/bin/activate  //for linux
-   .\venv\script\activate    // for windows
+   .\venv\scripts\activate    // for windows
 
 4. **Install dependencies**
    ```bash
