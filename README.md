@@ -29,6 +29,7 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
    DATABASE_URL=sqlite:///./test.db     **//for local use**
    SECRET_KEY=abhey_dadwal
    ACCESS_TOKEN_EXPIRE_MINUTES = 30
+    ALGORITHM="HS256"
 
 5.**Run the application**
    ```bash
