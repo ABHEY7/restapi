@@ -10,7 +10,7 @@ A RESTful API built with FastAPI featuring JWT authentication and role-based acc
 
    ```bash
    git clone https://github.com/ABHEY7/restapi.git
-   cd fast_api_code
+   cd restapi
    
 2. **Create and activate a virtual environment**
    python -m venv venv
